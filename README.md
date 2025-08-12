@@ -58,7 +58,7 @@ lab01-nhom16/
 ```bash
 # Clone repository
 git clone <repository-url>
-cd lab01-nhom16
+cd lmao_phim
 
 # Cài đặt dependencies
 npm install
@@ -340,15 +340,9 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 
 ### Members
 
-- [Tên thành viên 1]
-- [Tên thành viên 2]
-- [Tên thành viên 3]
-
-## 📞 Contact
-
-- **Email**: [email@example.com]
-- **GitHub**: [github.com/username]
-- **Project**: [project-url]
+- 2212375 - Triệu Quang Học
+- 2212343 - Đinh Lâm Gia Bảo
+- 2100011 - Nguyễn Đoan Trang
 
 ## 🙏 Acknowledgments
 
