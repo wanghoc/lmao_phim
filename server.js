@@ -9,8 +9,8 @@ const PORT = 3000;
 
 // TheMovieDB API Configuration
 const TMDB_CONFIG = {
-    API_KEY: 'fe7e3a054d7eb0032bb12441539548d1',
-    ACCESS_TOKEN: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZTdlM2EwNTRkN2ViMDAzMmJiMTI0NDE1Mzk1NDhkMSIsIm5iZiI6MTc1MTk0NzQ3Mi4wMjEsInN1YiI6IjY4NmM5OGQwODY1MDIxM2ZmMmNlZWFiMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kXLhtVQU3y2HSd9ypSANzfTB9x5eGfBubAWLImUA9QE',
+    API_KEY: process.env.API_KEY,
+    ACCESS_TOKEN: process.env.ACCESS_TOKEN,
     BASE_URL: 'https://api.themoviedb.org/3',
     IMAGE_BASE_URL: 'https://image.tmdb.org/t/p',
     IMAGE_SIZES: {
